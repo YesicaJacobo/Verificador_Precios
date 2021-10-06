@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "3.11.0.0",
+        "fileVersion": "3.11.0-4.21403.6 (ae1fff34)",
+        "semanticVersion": "3.11.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Yesica/Desktop/linea/Semestre_7/Ing.Sof.3/Verificador_Precios/Verificador_Precios/Form1.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 17,
+                  "endLine": 35,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Yesica/Desktop/linea/Semestre_7/Ing.Sof.3/Verificador_Precios/Verificador_Precios/Form1.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 21,
+                  "endLine": 42,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Yesica/Desktop/linea/Semestre_7/Ing.Sof.3/Verificador_Precios/Verificador_Precios/Form1.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 25,
+                  "endLine": 49,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
