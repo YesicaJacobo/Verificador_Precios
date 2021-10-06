@@ -90,6 +90,13 @@ namespace Verificador_Precios
                         pictureBox2.Visible = false;
                         pictureBox4.Visible = false;
 
+                        label2.Visible = false;
+                        label4.Visible = false;
+                        label5.Visible = false;
+                        label7.Visible = false;
+                        pictureBox3.Visible = false;
+                        pictureBox6.Visible = false;
+
                         label6.Visible = true;
                         pictureBox7.Visible = true;
 
