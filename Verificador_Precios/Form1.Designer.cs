@@ -139,7 +139,7 @@ namespace Verificador_Precios
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Bodoni Bk BT", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(286, 53);
+            this.label3.Location = new System.Drawing.Point(286, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(281, 57);
             this.label3.TabIndex = 6;
@@ -196,7 +196,7 @@ namespace Verificador_Precios
             this.pictureBox7.BackColor = System.Drawing.Color.White;
             this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(239, 183);
+            this.pictureBox7.Location = new System.Drawing.Point(221, 186);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(355, 267);
             this.pictureBox7.TabIndex = 11;
@@ -208,7 +208,7 @@ namespace Verificador_Precios
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Bodoni Bk BT", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(107, 36);
+            this.label6.Location = new System.Drawing.Point(107, 39);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(578, 144);
             this.label6.TabIndex = 12;
@@ -225,7 +225,7 @@ namespace Verificador_Precios
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label7.Font = new System.Drawing.Font("Bodoni Bk BT", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(66, 237);
+            this.label7.Location = new System.Drawing.Point(142, 231);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(280, 144);
             this.label7.TabIndex = 13;
